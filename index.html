@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First App</title>
+    <link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./node_modules/materialize-css/dist/js/materialize.js"></script>
+</head>
+
+<body>
+    <div class="mainContent">
+        <p class="flow-text">Конвертер температур</p>
+        <div class="input-field col s6 ">
+            <label for="fahrenheit">Фаренгейт</label>
+            <input id="fahrenheit" type="text" class="validate" onkeyup="fahrenheitToCelsius()" placeholder=""></input>
+        </div>
+        <div class="input-field col s6 ">
+            <label for="celsius">Цельсий</label>
+            <input id="celsius" type="text" class="validate" onkeyup="celsiusToFahrenheit()" placeholder=""></input>
+        </div>
+    </div>
+    <script>
+        require('./render.js');
+    </script>
+    <script src="converter.js"></script>
+</body>
+
+</html>
