@@ -9,10 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^8.1.1",
-    "materialize-css": "^1.0.0-rc.2"
+    "electron": ">=8.5.2",
+    "materialize-css": ">=1.0.0-rc.2"
   },
   "devDependencies": {
-    "electron-packager": "^14.2.1"
+    "electron-packager": ">=14.2.1"
   }
 }
