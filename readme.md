@@ -1,7 +1,14 @@
-#electron-converter
+# electron-converter
+## Installation
 Для добавления недостающих библиотек
-    npm init
+```bash
+npm init
+```
 Для сборки проекта под Windows
-    electron-packager . --platform=win32
+```bash
+electron-packager . --platform=win32
+```
 Для сборки проекта под MacOs
-    electron-packager . --platform=darwin
+```bash
+electron-packager . --platform=darwin
+```
